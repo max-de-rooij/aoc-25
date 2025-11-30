@@ -1,0 +1,20 @@
+# Advent of Code 2025
+This repository contains my solutions for the Advent of Code 2025 programming challenges.[^aoc] Each day's challenge is implemented in a separate folder, organized by day.
+
+## Structure
+- Each day's solution is located in a folder named `dayXX`, where `XX` is the day number (e.g., `day01`, `day02`, etc.).
+- Each folder contains:
+  - `solution.jl`: The main solution file for that day's challenge.
+  - `remarks.md`: Additional notes or explanations about the solution. 
+
+_In accordance with the Advent of Code rules, I will not share any input data or specific challenge details in this repository. Inputs are expected to be provided by the user when running the solutions._
+
+## Usage
+To run a solution for a specific day, navigate to the corresponding folder and execute the `solution.jl` file using Julia. Make sure to provide the necessary input data as required by the challenge.
+
+[^aoc]:
+    [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
+    Every year since then, beginning on the first day of December, a programming puzzle is published every day for twenty-five days.
+    You can solve the puzzle and provide an answer using the language of your choice.
+
+[aoc]: https://adventofcode.com

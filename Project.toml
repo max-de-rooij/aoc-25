@@ -1,0 +1,14 @@
+name = "aoc25"
+uuid = "6c36bf33-6705-4624-b931-7a3f99261966"
+version = "0.1.0"
+authors = ["max-de-rooij <54850292+max-de-rooij@users.noreply.github.com>"]
+
+[deps]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+Printf = "1.11.0"
+TOML = "1.0.3"
+Test = "1.11.0"
