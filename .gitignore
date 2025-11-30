@@ -2,3 +2,5 @@
 *outputs
 aocconfig.jl
 Manifest.toml
+.vscode
+.DS_Store
