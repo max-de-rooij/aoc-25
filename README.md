@@ -12,6 +12,9 @@ _In accordance with the Advent of Code rules, I will not share any input data or
 ## Usage
 To run a solution for a specific day, navigate to the corresponding folder and execute the `solution.jl` file using Julia. Make sure to provide the necessary input data as required by the challenge.
 
+## Julia Testing
+The `test` folder contains tests with expected outputs for the `test_cases` given in the Advent of Code puzzles. These `test_cases` are expected to be in the `dayXX/inputs/dayXX_test.txt` file where `XX` indicates the day (`01` for day 1, `02` for day 2, etc.) 
+
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
     Every year since then, beginning on the first day of December, a programming puzzle is published every day for twenty-five days.
