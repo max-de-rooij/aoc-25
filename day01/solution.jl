@@ -17,9 +17,9 @@ function day01_part2(input_file="day01/inputs/day01.txt")
             crossings = mod(a[1]+b, 100) == 0 ? 1 : 0
             check = a[1] + b
             if check < 0
-                crossings += abs(a[1]+b) ÷ 100 + Int(a[1] != 0 && a[2] != 100) - Int(mod(a[1]+b, 100) == 0)
+                crossings += abs(a[1]+b) ÷ 100 + Int(a[1] != 0) - crossings
             elseif check > 100
-                crossings += abs(a[1]+b) ÷ 100 - Int(mod(a[1]+b, 100) == 0)
+                crossings += abs(a[1]+b) ÷ 100 - crossings
             end
             return mod(a[1]+b, 100), a[1]+b, crossings
         end

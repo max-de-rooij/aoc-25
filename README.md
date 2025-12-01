@@ -5,7 +5,7 @@ This repository contains my solutions for the Advent of Code 2025 programming ch
 - Each day's solution is located in a folder named `dayXX`, where `XX` is the day number (e.g., `day01`, `day02`, etc.).
 - Each folder contains:
   - `solution.jl`: The main solution file for that day's challenge.
-  - `remarks.md`: Additional notes or explanations about the solution. 
+  - `README.md`: Additional notes or explanations about the solution. 
 
 _In accordance with the Advent of Code rules, I will not share any input data or specific challenge details in this repository. Inputs are expected to be provided by the user when running the solutions._
 

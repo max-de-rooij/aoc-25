@@ -1,2 +1,0 @@
-# Remarks on Day 1 of Advent of Code
-Part 1 was quite easy and quickly done. I'd like to say my solution is quite elegant. Much less can be said for day 2, which was unsuspectingly quite challenging because of some edge cases, which made me go through the output for some debugging. Undoubtedly, there may be better solutions than mine, but I am glad that I obtained a solution that works. 
