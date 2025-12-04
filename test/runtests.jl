@@ -23,8 +23,8 @@ cd("..")
 
 
     @testset "day 4" begin
-        @test day04_part1("day04/inputs/day04_test.txt")
-        @test day04_part2("day04/inputs/day04_test.txt")
+        @test day04_part1("day04/inputs/day04_test.txt") == 13
+        @test day04_part2("day04/inputs/day04_test.txt") == 43
     end
 
 
