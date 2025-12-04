@@ -1,8 +1,8 @@
 # Remarks on Day 4 of Advent of Code
-The first of day 4 was no difficult exercise. Similarly, I had solved part 2 very quickly with a relatively inefficient approach. However, it would still work within 10 seconds (thank you, Julia). It could probably be done more efficiently, so I thought about doing that. I found that I initially checked all rolls in the entire warehouse for their neighbors, but I could also add a dynamic list of rolls to check, which are all the rolls initially, but after that, I only had to check the neighbors of the ones I removed. That was the biggest win in performance. While the code doesn't look nearly as elegant as I'd wanted, it works.
+Day 4 contained no difficult exercises. To be honest, I was craving for a 2D grid exercise by now, given the first three days of this year. It could have genuinely been much more difficult, but now I do have the time to overoptimize solutions.
 
 ## Part 1
-I used Julia's `CartesianIndex` type to keep all the locations of the rolls in a vector. I constructed a `neighborsin(index, indices, n)` function, which checks whether an index has less than `n` neighbors in the list of `indices`. Running that through the map of rolls resulted in a quick answer.
+During this part, I genuinely just brute forced this and got it working quickly.
 
 ## Part 2
-For part 2, I did the same thing but dynamically removing rolls from the map. I also added the `neighbors` function to find the neighbors of the removed rolls. 
+A brute force approach was also very much doable here. I then proceeded to use dynamic programming to make this more efficient.
