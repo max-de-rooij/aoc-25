@@ -30,7 +30,7 @@ end
 
 function day04_part2(input_file="day04/inputs/day04.txt")
     lines = readsplitlines(input_file)
-    counter = 0; removed = 1
+    counter = 0;
     H = length(lines); W = length(lines[1])
     indices_to_check = [(i,j) for i in 1:H, j in 1:W][:]
     while !isempty(indices_to_check)
@@ -59,6 +59,5 @@ function day04_part2(input_file="day04/inputs/day04.txt")
     return counter
 end
 
-# # get outputs
 println("Day 4 - Part 1: $(day04_part1())")
 println("Day 4 - Part 2: $(day04_part2())")
