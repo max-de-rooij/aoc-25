@@ -1,0 +1,2 @@
+# Remarks on Day 10 of Advent of Code
+Part 1 was remarkably easy with a simple BFS to get it to work. Part 2 took longer but then I realised I needed a linear programming solver. As I was not planning on implementing that one from scratch, I decided to add JuMP to the packages for that one. 
