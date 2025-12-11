@@ -1,5 +1,15 @@
+![](https://img.shields.io/badge/day%20📅-11-blue)
+![](https://img.shields.io/badge/stars%20⭐-22-yellow)
+![](https://img.shields.io/badge/days%20completed-11-red)
+
 # Advent of Code 2025
 This repository contains my solutions for the Advent of Code 2025 programming challenges.[^aoc] Each day's challenge is implemented in a separate folder, organized by day.
+
+> [!NOTE]
+> For my attempts, I consider several rules for myself. All solutions are written and thought of **entirely** without the use of AI tools such as Copilot, ChatGPT, or Claude Sonnet. I try to finish most of the solutions without any packages. For this year, I have used no packages for all solutions except:
+> - Day 10, part 2. Used `JuMP` and `HiGHS` for the ILP solver.
+>
+> Any other packages in `Project.toml` are used for testing and benchmarking solutions, or to set up the folder structure.
 
 ## Structure
 - Each day's solution is located in a folder named `dayXX`, where `XX` is the day number (e.g., `day01`, `day02`, etc.).
